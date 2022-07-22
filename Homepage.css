@@ -193,8 +193,9 @@ h4{
     font-size: 32px;
 }
 #card4>p{
-    font-size: 19px;
+    font-size: 18px;
     margin-bottom: 100px;
+    color: #2b385b;
 }
 #card4>a{
     text-decoration: none;
@@ -203,4 +204,61 @@ h4{
     color: #04454d;
     margin-left: -60px;
    
-}   
+}
+#team{
+    width: 100%;
+    display: flex;
+    background-color: #04454d;
+    justify-content: space-between;
+    
+}
+#team>div>img{
+    width: 320px;
+}
+#team>div:nth-child(2){
+    width: 600px;
+    
+    text-align: center;
+    padding: 0px 30px;
+}
+#team>div>h2{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: white;
+}
+#team>div>p{
+    font-size: 16px;
+    color: white;
+}
+#team>div>a>button{
+    padding: 15px 20px;
+    border:transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #08cf65;
+}
+#success{
+    width: 100%;
+    background-color: #ebf5f3;
+    margin: auto;
+    
+    display: flex;
+   
+    justify-content: space-evenly;
+    padding: 50px 10px;
+}
+#expert{
+    width: 54%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+#expert>h2{
+    font-size: 40px;
+}
+#expert>p{
+    font-size: 20px;
+}
